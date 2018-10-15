@@ -22,7 +22,7 @@ ul{
   list-style: none;
 }
 
-li{
+.first_panel_list{
   display: inline;
   margin-right: 5px;
   padding: 3px;
