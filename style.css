@@ -1,8 +1,7 @@
+
 #main_wall{
   width: 100%;
 }
-<<<<<<< HEAD
-=======
 html,body,div,article,footer,header{
 background: transparent;
 border: 0px;
@@ -22,4 +21,3 @@ ul{
 .logo_icon{
   background: url(https://store-images.s-microsoft.com/image/apps.10440.14289392684619682.e0cb1d4d-b3eb-464b-954b-06c407235f2d.637518ec-a9c0-4211-80d0-23f2c2442c30?mode=scale&q=90&h=270&w=270&background=%23FFFFFF);
 }
->>>>>>> 1714b88b30d2e12cd506a9505a019f9df34ec34e
