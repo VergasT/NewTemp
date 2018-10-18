@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 @import "bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Mali');
 
-.nav-link{
+.navbar-light .navbar-nav .nav-link  {
   font-family: 'Mali', cursive;
   font-size: 22px;
-  color: #69855c;
-=======
-.loginbutton{
-  padding-left: 560px;
->>>>>>> 92512270233a4bf28f9a994b9dbfb5f0a7e377b5
+  color: #e6abda;
+
 }
