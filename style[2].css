@@ -1,0 +1,8 @@
+@import "bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+.nav-link{
+  font-family: 'Mali', cursive;
+  font-size: 22px;
+  color: #69855c;
+}
