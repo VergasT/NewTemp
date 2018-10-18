@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Mali');
 
@@ -5,4 +6,8 @@
   font-family: 'Mali', cursive;
   font-size: 22px;
   color: #69855c;
+=======
+.loginbutton{
+  padding-left: 560px;
+>>>>>>> 92512270233a4bf28f9a994b9dbfb5f0a7e377b5
 }
