@@ -1,9 +1,0 @@
-@import "bootstrap.min.css";
-@import url('https://fonts.googleapis.com/css?family=Mali');
-.bg-light{
-    background-color: #9cdac0!important;
-}
-.navbar-brand{
-  font-family: 'Mali', cursive;
-  font-size: 22px;
-}
