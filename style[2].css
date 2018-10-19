@@ -8,14 +8,23 @@
 
 .loginbutton{
   font-family: 'Mali', cursive;
-  padding-left: 560px;
+  padding-left: 590px;
 }
 
 .logbut{
   padding: 6px 12px 6px 12px;
   border: 1px solid #28a745;
-  color: #28a745;
-  border-color: #28a745;
+  color: #007bff;
+  font-size: 22px;
+  border-color: #007bff;
   background-color: transparent;
   border-radius: 4px;
+}
+.logbut:hover{
+  cursor: pointer;
+  border: 1px solid #28a745;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+
 }
