@@ -1,5 +1,6 @@
 @import "bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Mali', cursive;
@@ -9,6 +10,10 @@
 .login_button {
   font-family: 'Mali', cursive;
 }
+
+/* nav, .log_but{
+  font-family: 'Gloria Hallelujah';
+} */
 
 .log_but {
   padding: 6px 12px 6px 12px;
@@ -54,4 +59,9 @@
 
 .w-100{
   max-width: 33%;
+}
+
+.login_dropdown{
+  position: relative;
+  
 }
