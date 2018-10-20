@@ -5,6 +5,7 @@
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Mali', cursive;
   font-size: 22px;
+  height: 50px;
 }
 
 .login_button {
@@ -76,6 +77,57 @@
   display: block;
   /* position: absolute; */
 }
-.bg-light{
-border-top: 2px solid rgb(223, 235, 181);
+
+.bg-light {
+  border-top: 4px solid rgb(130, 30, 48);
+  border-bottom:  4px solid rgb(130, 30, 48);
+  background: rgb(108, 177, 94);
+}
+
+.nav_back {
+  margin: 0px;
+  height: 50px;
+}
+
+a:hover {
+  background-color: rgb(130, 30, 48);
+  color: #fff;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-item {
+  /* border-left: 3px solid rgb(130, 30, 48); */
+  /* border: 1px solid rgb(130, 30, 48); */
+  background: rgb(108, 177, 94);
+
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  /* padding: 0.5rem 0; */
+  /* margin: 0.125rem 0 0; */
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  /* background-color: #fff; */
+  background-clip: padding-box;
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  /* border-radius: 0.25rem; */
+}
+
+.show>.nav-link {
+  background-color: rgb(130, 30, 48);
+}
+.dropdown:hover > .dropdown-menu {
+    display: block;
 }
