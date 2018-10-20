@@ -17,10 +17,10 @@
 } */
 .log_but {
   padding: 6px 12px 6px 12px;
-  border: 1px solid #28a745;
-  color: #007bff;
+  /* border: 1px solid #c266de; */
+  border: none;
+  color: #fff;
   font-size: 22px;
-  border-color: #007bff;
   background-color: transparent;
   border-radius: 4px;
   /* box-shadow: 1px 5px 10px -5px black; */
@@ -79,9 +79,9 @@
 }
 
 .bg-light {
-  border-top: 4px solid rgb(130, 30, 48);
-  border-bottom:  4px solid rgb(130, 30, 48);
-  background: rgb(108, 177, 94);
+  border-top: 4px solid #521d32;
+  /* border-bottom:  4px solid rgb(130, 30, 48); */
+  background: #253823;
 }
 
 .nav_back {
