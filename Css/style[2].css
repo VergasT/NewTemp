@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mali');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
-body{
-    background-color: #f9e8f0;
-}
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Mali', cursive;
   font-size: 22px;
@@ -92,12 +89,12 @@ body{
   height: 50px;
 }
 
-.navbar a:hover {
-  background-color: rgb(130, 30, 48);
+a:hover {
+  background-color: #521d32;
   color: #fff;
 }
 
-.navbar a {
+a {
   color: rgb(255, 255, 255);
 }
 
