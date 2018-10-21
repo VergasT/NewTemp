@@ -90,7 +90,7 @@
 }
 
 a:hover {
-  background-color: rgb(130, 30, 48);
+  background-color: #521d32;
   color: #fff;
 }
 
@@ -102,7 +102,6 @@ a {
   /* border-left: 3px solid rgb(130, 30, 48); */
   /* border: 1px solid rgb(130, 30, 48); */
   background: rgb(108, 177, 94);
-
 }
 
 .dropdown-menu {
@@ -128,6 +127,8 @@ a {
 .show>.nav-link {
   background-color: rgb(130, 30, 48);
 }
-.dropdown:hover > .dropdown-menu {
-    display: block;
+
+.main_content {
+  height: 100%;
+  /* background-color: rgb(237, 225, 157); */
 }
