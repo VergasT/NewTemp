@@ -3,14 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 body{
-  padding: 0;
-  margin: 0;
+    background-color: #f9e8f0;
 }
-
-.main_wall{
-  margin-top: 30px;
-}
-
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Mali', cursive;
   font-size: 22px;
