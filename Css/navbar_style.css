@@ -82,9 +82,10 @@ body{
 }
 
 .bg-light {
-  border-top: 4px solid #521d32;
+  border-top: 2px solid #521d32;
+  border-bottom: 2px solid #645077;
   /* border-bottom:  4px solid rgb(130, 30, 48); */
-  background: #253823;
+  background-color: #3b5b34;
 }
 
 .nav_back {

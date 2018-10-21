@@ -2,6 +2,10 @@
   margin-top: 30px;
 }
 
+.content{
+  margin-left: 230px;
+}
+
 .img_set{
   display: flex;
   flex-wrap: wrap;
@@ -9,6 +13,8 @@
 
 .img_set a {
   display: block;
+  position: relative;
+  padding-right: 10px;
   margin:10px auto 10px;
-  
+
 }
