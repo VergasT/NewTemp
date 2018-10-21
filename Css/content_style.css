@@ -1,0 +1,14 @@
+.main_wall{
+  margin-top: 30px;
+}
+
+.img_set{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img_set a {
+  display: block;
+  margin:10px auto 10px;
+  
+}
