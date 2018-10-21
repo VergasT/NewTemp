@@ -1,0 +1,27 @@
+.left_tags_bar{
+  float: left;
+  max-width: 200px;
+  margin-left: 20px;
+  text-transform: capitalize;
+
+}
+.left_tags_bar a{
+
+}
+.left_tags_bar ul{
+  list-style-type: none;
+      padding-inline-start: 25px;
+}
+
+.left_tags_bar_head{
+  font-family: 'Mali', cursive;
+  font-size:  18px;
+}
+
+.content{
+  margin-left: 230px;
+}
+
+.tags_bar_search{
+  margin-bottom: 20px;
+}

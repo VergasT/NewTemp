@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="Css/bootstrap.css">
+  <link rel="stylesheet" href="Css/style[1].css">
   <link rel="stylesheet" href="Css/style[2].css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -14,7 +15,7 @@
 </head>
 
 <body>
-    <div class="Top_bg"></div>
+  <div class="Top_bg"></div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light navline nav_back">
     <a class="navbar-brand" href="#">PixArt</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +45,7 @@
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0 search_button" type="submit">Search</button>
-          <div class="login_button">
+          <!-- <div class="login_button">
             <input type="button" value="Login" class="log_but login dropdown-toggle" data-toggle="dropdown">
             <div class="dropdown-menu login_dropdown">
               <form class="px-4 py-3">
@@ -68,15 +69,16 @@
               <a class="dropdown-item" href="#">New around here? Sign up</a>
               <a class="dropdown-item" href="#">Forgot password?</a>
             </div>
-            <input type="button" value="Register" class="log_but Register" onClick='location.href="Registerform.html"'>
+            <input type="button" value="Register" class="log_but Register" onClick='location.href="Registerform.html"'> -->
 
         </form>
       </div>
     </div>
     </div>
   </nav>
-  <div class="main_content">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div class="main_wall">
+    <!-- Карусель -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -107,7 +109,65 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+    </div> -->
+    <div class="left_tags_bar">
+      <div>
+        <div class="left_tags_bar_head">Sort</div>
+        <ul>
+          <li>
+            <a href="#">New</a>
+          </li>
+          <li>
+            <a href="#">Most popular</a>
+          </li>
+          <li>
+            <a href="#">Most vieved</a>
+          </li>
+          <li>
+            <a href="#">Top rated</a>
+          </li>
+        </ul>
+      </div>
+      <div class="tags_bar_search">
+        <div class="left_tags_bar_head">Search</div>
+        <input type="text" value="">
+      </div>
+      <div class="left_tags_bar_categories">
+        <div class="left_tags_bar_head">Categories</div>
+        <ul calss="categories_list">
+          <li>
+            <a href="#">anime</a>
+          </li>
+          <li>
+            <a href="#">video games</a>
+          </li>
+          <li>
+            <a href="#">2D</a>
+          </li>
+          <li>
+            <a href="#">3D</a>
+          </li>
+        </ul>
+      </div>
+      <div class="left_tags_bar_tegs">
+        <div class="left_tags_bar_head">Tags</div>
+        <ul class="tags_list">
+          <li>
+            <a href="#">1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">4</a>
+          </li>
+        </ul>
+      </div>
     </div>
+    <div class="content">All about all</div>
   </div>
   <footer>
 
