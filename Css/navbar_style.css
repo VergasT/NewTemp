@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 body{
-    background-color: #E8EDDF  ;
+    background-color: #e0d6c0;
     height: auto;
     width: auto;
 }
@@ -85,8 +85,8 @@ body{
 }
 
 .bg-light {
-  border-top: 4px solid rgb(154, 100, 117);
-  border-bottom: 4px solid rgb(154, 100, 117);
+  border-top: 4px solid #20602e;
+  border-bottom: 4px solid #56451b;
   /* border-bottom:  4px solid rgb(130, 30, 48); */
   background-color: #CC9966;
 }

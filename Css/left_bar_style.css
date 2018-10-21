@@ -26,7 +26,7 @@
 
 .spoiler_head {
   font-family: 'Mali', cursive;
-  background-color: #8dc481;
+  background-color: #73bc71;
 }
 
 .spoiler_body{
@@ -63,5 +63,5 @@
 }
 
 .spoiler>.spoiler_body {
-  background: #e2dee0;
+  background: #c6b797;
 }
