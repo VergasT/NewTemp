@@ -3,13 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 body{
-    background-color: #f9e8f0;
+    background-color: #E8EDDF  ;
     height: auto;
     width: auto;
 }
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Mali', cursive;
-  font-size: 22px;
+  font-size: 20px;
   height: 50px;
 }
 
@@ -71,10 +71,11 @@ body{
 }
 
 .Top_bg {
-  background-image: url(../background/bg.jpg);
-  background-position: top center;
-  height: 160px;
+  background-image: url(../background/BackTop.png);
+  /* background-position: top center; */
+  height: 188px;
   position: relative;
+  width: 100%;
   /* padding: 25px 0 0; */
 }
 
@@ -84,10 +85,10 @@ body{
 }
 
 .bg-light {
-  border-top: 2px solid #521d32;
-  border-bottom: 2px solid #645077;
+  border-top: 4px solid rgb(154, 100, 117);
+  border-bottom: 4px solid rgb(154, 100, 117);
   /* border-bottom:  4px solid rgb(130, 30, 48); */
-  background-color: #3b5b34;
+  background-color: #CC9966;
 }
 
 .nav_back {
@@ -96,7 +97,7 @@ body{
 }
 
 .navbar a:not(.navbar-brand):hover {
-  background-color: rgb(130, 30, 48);
+  background-color: #521d32;
   color: #fff;
 }
 
