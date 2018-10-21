@@ -47,10 +47,10 @@
   display: block;
 }
 .spoiler > input + label + .spoiler_body{
-  display:none;
+  display:block;
 }
 .spoiler > input:checked + label + .spoiler_body{
-  display: block;
+  display: none;
 }
 .spoiler > .spoiler_body{
   background: #e2dee0;
