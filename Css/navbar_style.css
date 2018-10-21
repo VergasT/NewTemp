@@ -4,6 +4,8 @@
 
 body{
     background-color: #f9e8f0;
+    height: auto;
+    width: auto;
 }
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Mali', cursive;
