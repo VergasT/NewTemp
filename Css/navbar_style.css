@@ -95,7 +95,7 @@ body{
   height: 50px;
 }
 
-.navbar a:hover {
+.navbar a:not(.navbar-brand):hover {
   background-color: rgb(130, 30, 48);
   color: #fff;
 }
