@@ -3,6 +3,7 @@
   max-width: 200px;
   margin-left: 20px;
   text-transform: capitalize;
+  border: 2px solid rgb(96, 31, 31);
 
 }
 .left_tags_bar a{
